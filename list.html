@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript Intro</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<!--<link rel="stylesheet" type="text/css" href="Styles/style.css">-->
+	<meta name='viewport' content='width=device-width, initial-scale=1'> 
+</head>
+<body>
+	<ul id='list'>
+		
+	</ul>
+</body>
+<script type="text/javascript">
+	//make array
+	var shoppingList = [
+		'milk','bananas','orange juice','waffles','toast','bacon'
+	];
+	//get the stuff by ID list
+	var listElement = document.getElementById('list');
+	//console.log to see what's going on
+	console.log(shoppingList);
+	console.log(listElement);
+	// for each item in shoppingList perform function
+	shoppingList.forEach(function(item) {
+		// console log item so we can see what they are
+		console.log(item);
+		//create an li element
+		var li = document.createElement('li');
+		//set the innerHTML <p>content between tags</p>
+		li.innerHTML = item;
+		li.className = 'cssClass';
+		//see what it looks like
+		console.log(li);
+		//append the li to the ul
+		listElement.append(li);
+	
+	});
+</script>
+</html>

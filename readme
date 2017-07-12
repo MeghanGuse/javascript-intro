@@ -1,0 +1,32 @@
+*Function*: Reusable code
+	- alert
+	- prompt
+	- confirm
+	- can confirm using typeof [name of function]
+
+*Number type*: numeric value
+
+*String*: an array/list of individual characters
+	- can use .length at the end to check the number of characters
+	- .lenght is a property
+	- an array of characters
+	- just words
+
+*Object*: represents real things via properties
+	- {} and [] - storing information
+	- the computer does not understand what this means (You know nothing, Google Chrome)
+	- real things in the computers (the Matrix)
+
+*Array*: list of things
+	example:
+		let shoppingList = {
+			'cereal',
+			'milk',
+			'spork',
+			'house',
+			'tesla'
+		}
+
+*Boolean*: true or false
+
+*Undefined*: does not exist
